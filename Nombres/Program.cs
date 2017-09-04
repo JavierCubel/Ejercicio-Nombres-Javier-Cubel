@@ -49,9 +49,9 @@ namespace Nombres
             Console.ReadLine();
             for(int i=0; i<numNombres; i++)
             {
-                Console.WriteLine("Escribe un nombre");
+                Console.WriteLine("Escribe el nombre {0}",i+1);
                 nombre= PedirNombre();
-                Console.WriteLine("Escribe un apellido");
+                Console.WriteLine("Escribe el apellido {0}", i+1);
                 apellido = PedirNombre();
                 completo = apellido + ", "+nombre;
                 nombres[i] = completo;
