@@ -26,7 +26,7 @@ namespace Nombres
         //Metodo que guarda los nombres en un fichero de nombre "ListaOrdenada.txt"
         public static void GuardarNombres()
         {
-            StreamWriter fichero = new StreamWriter("ListaOrdenada.txt");
+            StreamWriter fichero = new StreamWriter("..\\..\\..\\ListaOrdenada.txt");
             for (int i = 0; i < numNombres; i++)
             {
                 fichero.WriteLine(getNombreI(i));
