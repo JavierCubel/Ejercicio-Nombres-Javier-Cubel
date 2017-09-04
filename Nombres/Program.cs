@@ -57,11 +57,16 @@ namespace Nombres
                 nombres[i] = completo;
             }
             Ordenar();
+            Console.WriteLine();
+            Console.WriteLine("Estos son los nombres ordenados alfabeticamente:");
             for (int i = 0; i < numNombres; i++)
             {
                 Console.WriteLine(getNombreI(i));
             }
+            Console.WriteLine("Guardando lista ordenada de nombres en fichero de texto...");
             GuardarNombres();
+            Console.WriteLine();
+            Console.WriteLine("Nombres guardados correctamente");
             Console.ReadKey();
         }
     }
