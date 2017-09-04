@@ -34,6 +34,7 @@ namespace Nombres
             fichero.Close();
         }
 
+        //Metodo que ordena los datos del array "nombres"
         public static void Ordenar()
         {
             
